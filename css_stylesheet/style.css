@@ -105,3 +105,9 @@ tr:nth-child(odd){
     background-color: gold;
 
 }
+.label{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+
+}
