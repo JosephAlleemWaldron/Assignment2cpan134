@@ -1,9 +1,16 @@
+
+
 #main-header{
     text-align: center;
     margin:2em;
 }
 #main-header::first-letter{
     font-size: 3em;
+}
+#main-header{
+    border: 2px solid gold;
+    box-shadow: 2px 2px 8px 2px gold;
+    border-radius: 20px;
 }
 
 .main-header2{
@@ -12,8 +19,8 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    text-align: center;
     margin: 80px;
+    padding: 50px;
     
 }
 form{
@@ -39,7 +46,9 @@ img{
 }
 
 .links{
-    text-align: right;
+    margin-left: 75%;
+    display: inline-block;   
+    background-color: brown;
 }
 
 ul{
@@ -70,10 +79,29 @@ table, th, tr, td{
 tr:nth-child(odd){
     background-color: aqua;
 }
-.divalign{
+.div_class{
     text-align: center;
     background-color:goldenrod;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px;
 }
-.div2{
-    background-color: antiquewhite;
+.div_one_pagetwo{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius:25px ;
+    background-color: gold;
+}
+
+.div_one_pagethree{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius:25px ;
+    background-color: gold;
+
 }
